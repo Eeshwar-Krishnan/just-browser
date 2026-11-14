@@ -1,0 +1,6 @@
+.tmp-research/
+node_modules/
+dist/
+*.tsbuildinfo
+.DS_Store
+assets/wasm/*.tmp

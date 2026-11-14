@@ -1,0 +1,38 @@
+/* tslint:disable */
+/* eslint-disable */
+export const memory: WebAssembly.Memory;
+export const __wbg_scenerasterizer_free: (a: number, b: number) => void;
+export const ks_js_span_enter: (a: number, b: number, c: number, d: number, e: number) => number;
+export const ks_js_span_exit: (a: number) => void;
+export const ks_set_emit_hook: (a: number) => void;
+export const scenerasterizer_abandonImage: (a: number, b: number, c: number) => number;
+export const scenerasterizer_blitPartial: (a: number, b: number, c: number, d: number, e: number, f: number, g: number) => number;
+export const scenerasterizer_encodeRetained: (a: number, b: number, c: number, d: number, e: number, f: number) => [number, number];
+export const scenerasterizer_lastRasterizeInfo: (a: number) => [number, number];
+export const scenerasterizer_missingResources: (a: number, b: number, c: number) => [number, number];
+export const scenerasterizer_missingResourcesPdf: (a: number, b: number, c: number) => [number, number];
+export const scenerasterizer_new: () => number;
+export const scenerasterizer_pendingFontAssets: (a: number) => [number, number];
+export const scenerasterizer_pendingImages: (a: number) => [number, number];
+export const scenerasterizer_putFontAsset: (a: number, b: number, c: number, d: number, e: number) => number;
+export const scenerasterizer_putImageBytes: (a: number, b: number, c: number, d: number, e: number) => number;
+export const scenerasterizer_putResources: (a: number, b: number, c: number) => number;
+export const scenerasterizer_rasterize: (a: number, b: number, c: number, d: number, e: number, f: number, g: number) => [number, number];
+export const scenerasterizer_rasterizeAndRetain: (a: number, b: number, c: number, d: number, e: number, f: number, g: number, h: number, i: number) => [number, number];
+export const scenerasterizer_rasterizePartial: (a: number, b: number, c: number, d: number, e: number, f: number, g: number, h: number, i: number, j: number) => [number, number];
+export const scenerasterizer_renderPdf: (a: number, b: number, c: number, d: number, e: number, f: number, g: number, h: number, i: number, j: number) => [number, number];
+export const scenerasterizer_reserveFrame: (a: number, b: number, c: number) => void;
+export const scenerasterizer_resetResources: (a: number) => void;
+export const scenerasterizer_retainedFrameKey: (a: number) => [number, number];
+export const scenerasterizer_shiftRetained: (a: number, b: number, c: number, d: number, e: number) => number;
+export const set_ks_trace_parent: (a: number, b: number) => void;
+export const set_ks_tracing: (a: number) => void;
+export const start: () => void;
+export const __wbindgen_export: WebAssembly.Table;
+export const __wbindgen_free: (a: number, b: number, c: number) => void;
+export const __wbindgen_malloc: (a: number, b: number) => number;
+export const __wbindgen_realloc: (a: number, b: number, c: number, d: number) => number;
+export const __externref_table_alloc: () => number;
+export const __wbindgen_externrefs: WebAssembly.Table;
+export const __externref_drop_slice: (a: number, b: number) => void;
+export const __wbindgen_start: () => void;
